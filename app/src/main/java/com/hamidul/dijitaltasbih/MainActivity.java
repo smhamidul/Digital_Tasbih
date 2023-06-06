@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     TextView tvDisplay;
     ImageButton bAdd,bReset;
     int count = 0;
+
+    TextView gitcheck;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
