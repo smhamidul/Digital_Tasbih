@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     ImageButton bAdd,bReset;
     int count = 0;
 
-    TextView gitcheck2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
