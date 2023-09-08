@@ -29,7 +29,7 @@
         app:layout_constraintEnd_toEndOf="@+id/image"
         app:layout_constraintStart_toStartOf="@+id/image"
         app:layout_constraintTop_toTopOf="@+id/image"
-        tools:ignore="TextSizeCheck">
+        tools:ignore="RtlCompat,TextSizeCheck">
 
         <TextView
             android:id="@+id/tvDisplay"
@@ -56,7 +56,7 @@
         app:layout_constraintEnd_toEndOf="@+id/image"
         app:layout_constraintStart_toStartOf="@+id/image"
         app:layout_constraintTop_toTopOf="@+id/image"
-        tools:ignore="DuplicateClickableBoundsCheck,SpeakableTextPresentCheck" />
+        tools:ignore="DuplicateClickableBoundsCheck,RtlCompat,SpeakableTextPresentCheck" />
 
 
     <ImageButton
@@ -70,7 +70,7 @@
         app:layout_constraintEnd_toEndOf="@+id/image"
         app:layout_constraintStart_toStartOf="@+id/image"
         app:layout_constraintTop_toTopOf="@+id/image"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        tools:ignore="RtlCompat,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     
 
